@@ -109,7 +109,7 @@ $CFG->wwwroot   = 'https://fisi-edutec.herokuapp.com';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = '/home/example/moodledata';
+$CFG->dataroot  = '/temp';
 
 
 //=========================================================================
