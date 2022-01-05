@@ -5,7 +5,7 @@ global $CFG;
 $CFG = new stdClass();
 
 $CFG->dbtype    = getenv('DATABASE_TYPE');
-// $CFG->dblibrary = 'native';
+$CFG->dblibrary = 'native';
 $CFG->dbhost    = getenv('DATABASE_HOST');
 $CFG->dbname    = getenv('DATABASE_NAME');
 $CFG->dbuser    = getenv('DATABASE_USER');
